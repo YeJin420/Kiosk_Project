@@ -62,7 +62,7 @@ public class Kiosk {
             System.out.println("0. 담기 그만하고 결제하기");
             int input = sc.nextInt();
 
-            if (input >= 1 && input <= 4) {
+            if (input >= 1 && input <= 5) {
                 addToCart(input, 2);
             } else if (input == 0) {
                 askMoreOptions(sc);
